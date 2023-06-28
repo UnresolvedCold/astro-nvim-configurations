@@ -23,4 +23,8 @@ return {
       { "<leader>T", "<cmd>TodoTelescope<cr>", desc = "Open Todo Telescope" },
     },
   },
+  {
+    "f-person/git-blame.nvim",
+    event = "VeryLazy",
+  },
 }
