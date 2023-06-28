@@ -34,3 +34,5 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim/lua/us
 ```shell
 nvim
 ```
+
+For more information watch - https://www.youtube.com/watch?v=GEHPiZ10gOk
