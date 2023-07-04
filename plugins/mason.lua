@@ -33,4 +33,16 @@ return {
       })
     end,
   },
+  {
+    "p00f/clangd_extensions.nvim",
+  },
+  {
+    "mfussenegger/nvim-jdtls", -- load jdtls on module
+    {
+      "williamboman/mason-lspconfig.nvim",
+      opts = {
+        ensure_installed = { "jdtls" },
+      },
+    },
+  },
 }
